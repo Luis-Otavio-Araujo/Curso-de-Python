@@ -7,6 +7,7 @@ nv2 = 0
 
 while opcao  != 5 :
     print('\033[36m-=\033[m' * 20)
+
     print('''Escolha uma opção
 [1] Somar
 [2] Multiplicar
@@ -14,6 +15,7 @@ while opcao  != 5 :
 [4] Novos valores
 [5] Sair do programa''')
     opcao = int(input('O que vai querer?:'))
+
     print('\033[36m-=\033[m' * 20)
 
     if opcao > 5 or opcao < 1 :
